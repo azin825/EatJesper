@@ -441,11 +441,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
-        return '人？';
+        if (cps <= 5) return '比袁华作文错别字多';
+        if (cps <= 8) return '接不住淳一的皮鞋';
+        if (cps <= 10)  return '战神潜力股的手';
+        if (cps <= 15) return '关一帆跑的没你快';
+        return '哈哈哈好';
     }
 
     function toStr(obj) {
